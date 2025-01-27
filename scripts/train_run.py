@@ -3,9 +3,6 @@ import os
 import torch
 import subprocess
 
-# project_path = '/home/lanbo/WWADL/WWADL_code'
-# dataset_root_path = '/data/WWADL/dataset'
-
 # 定义路径
 project_path = '/root/shared-nvme/XRFV2'
 dataset_root_path = '/root/shared-nvme/dataset'
