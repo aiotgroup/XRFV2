@@ -1,5 +1,10 @@
 # XRFV2
 
+<p align="center">
+  <img src="img/story.png" alt="image-20240719171906628" width="700px"/>
+</p>
+
+
 **XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses**
 
 XRF V2 is a dataset designed for action summarization tasks using Wi-Fi signals and IMUs data from various devices such as phones, watches, earbuds, and glasses. This dataset provides valuable insights into human activity recognition and summarization using multi-modal sensor data.
@@ -62,3 +67,6 @@ Copy the path of the trained model and specify it in `test_run.py` before runnin
 ```
 ## 📞 Support
 If you encounter any issues or need assistance, feel free to reach out to us.
+
+## License 📜
+BullyDetect is licensed under the MIT License. See the LICENSE file for more details.
