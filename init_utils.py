@@ -2,8 +2,6 @@ import logging
 import importlib
 from dataset.wwadl import WWADLDatasetSingle
 from dataset.wwadl_test import WWADLDatasetTestSingle
-from dataset.wwadl_muti import WWADLDatasetMuti
-from dataset.wwadl_muti_test import WWADLDatasetTestMuti
 from dataset.wwadl_muti_all import WWADLDatasetMutiAll
 from dataset.wwadl_muti_all_test import WWADLDatasetTestMutiALL
 
@@ -12,8 +10,6 @@ logger = logging.getLogger(__name__)
 def init_dataset(config: dict):
     if config['dataset']['dataset_name'] == 'WWADLDatasetSingle':
         dataset = WWADLDatasetSingle(config['path']['dataset_path'], split='train', modality=config["model"]["modality"])
-    elif config['dataset']['dataset_name'] == 'WWADLDatasetMuti':
-        dataset = WWADLDatasetMuti(config['path']['dataset_path'])
     elif config['dataset']['dataset_name'] == 'WWADLDatasetMutiAll':
         dataset = WWADLDatasetMutiAll(config['path']['dataset_path'], split='train', receivers_to_keep=config['dataset']['receivers_to_keep'])
     else:
@@ -33,8 +29,6 @@ def init_test_dataset(config: dict):
     if config['dataset']['dataset_name'] == 'WWADLDatasetSingle':
         # dataset = WWADLDatasetTestSingle(config, modality=config["model"]["modality"])
         dataset = WWADLDatasetTestSingle(config, modality=config["model"]["modality"])
-    elif config['dataset']['dataset_name'] == 'WWADLDatasetMuti':
-        dataset = WWADLDatasetTestMuti(config)
     elif config['dataset']['dataset_name'] == 'WWADLDatasetMutiAll':
         dataset = WWADLDatasetTestMutiALL(config, receivers_to_keep=config['dataset']['receivers_to_keep'])
     else:

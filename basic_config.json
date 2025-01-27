@@ -2,19 +2,19 @@
     "datetime": "2025_01-08_22:23:51",
     "endtime": "None",
     "path": {
-        "dataset_path": "/root/shared-nvme/dataset/imu_30_3",
+        "dataset_path": "",
         "dataset_root_path": "/root/shared-nvme/WWADL",
         "basic_path": {
-            "project_path": "/root/shared-nvme/code/WWADL_code_mac",
+            "project_path": "/root/shared-nvme/XRFV2",
             "python_path": "/root/.conda/envs/mamba/bin/python",
             "log_path": "/root/shared-nvme/code_result/result",
             "result_path": "/root/shared-nvme/code_result/result"
         },
         "log_path": {
-            "train": "/root/shared-nvme/code_result/log/25_01-08/model_size/WWADLDatasetSingle_imu_30_3_34_2048_30-TRAIN.log",
-            "test": "/root/shared-nvme/code_result/log/25_01-08/model_size/WWADLDatasetSingle_imu_30_3_34_2048_30-TEST.log"
+            "train": "",
+            "test": ""
         },
-        "result_path": "/root/shared-nvme/code_result/result/25_01-08/model_size/WWADLDatasetSingle_imu_30_3_34_2048_30"
+        "result_path": ""
     },
     "dataset": {
         "dataset_name": "WWADLDatasetSingle",
@@ -28,8 +28,8 @@
         }
     },
     "model": {
-        "name": "TAD_single",
-        "backbone_name": "wifiTAD",
+        "name": "TAD_muti_weight_grc",
+        "backbone_name": "mamba",
         "modality": "imu"
     },
     "training": {
