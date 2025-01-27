@@ -1,0 +1,5 @@
+h5py
+pandas
+scipy
+torchinfo
+tqdm
