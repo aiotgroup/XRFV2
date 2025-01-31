@@ -9,8 +9,13 @@
 
 XRF V2 is a dataset designed for action summarization tasks using Wi-Fi signals and IMUs data from various devices such as phones, watches, earbuds, and glasses. This dataset provides valuable insights into human activity recognition and summarization using multi-modal sensor data.
 
-**📊 Dataset Link**: [xxxx.kaggle.com](#)  
+**📊 Dataset Link**: 
+- xrfv2_raw: https://www.kaggle.com/datasets/laptype/xrf-v2
+- xfv2_train: Uploading...
 *(Currently, only data from 3 volunteers are available for access)*
+
+After downloading the dataset, please note that the **xfv2_train** folder contains the data used during training, which is split into training and testing datasets, as specified in `basic_config.json` under the `dataset_path` parameter. The **xrfv2_raw** folder contains the raw, unsegmented data, which is intended for testing and evaluation, and corresponds to the `dataset_root_path` in `basic_config.json`. 
+
 
 ## 📦 Environment Configuration
 
