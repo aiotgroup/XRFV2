@@ -75,8 +75,9 @@ Copy the path of the trained model and specify it in `test_run.py` before runnin
 If you encounter any issues or need assistance, feel free to reach out to us.
 
 ## 📝 TODO
-- **Kinect Video Processing**: Process Kinect video data to extract pose and mesh information. This involves using Kinect's depth sensors and RGB cameras to capture human body movements and generate 3D mesh models. These models will be used for action recognition and summarization.
-- **Use internvideo6b**: Leverage the internvideo6b model for efficient processing of the raw Kinect video frames to extract key pose and mesh features. This includes converting raw data into a usable format for training and testing, ensuring the model can handle multi-modal inputs like RGB images and depth maps for accurate action recognition.
+- To process video into 2D pose, 3D pose, and mesh for pose estimation and tracking, mesh reconstruction and tracking.
+- To process video into internvideo6b features for multimodal learning.
+
 
 ## License 📜
 XRFV2 is licensed under the MIT License. See the LICENSE file for more details.
