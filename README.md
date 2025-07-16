@@ -90,8 +90,7 @@ If XRFV2 helps in your research, please kindly cite
   title = {XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses},
   journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
   year = {2025},
-  publisher = {ACM},
-  address = {New York, NY, USA}
+  publisher = {ACM}
 }
 ```
 
