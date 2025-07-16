@@ -9,13 +9,13 @@
 
 XRF V2 is a dataset designed for action summarization tasks using Wi-Fi signals and IMUs data from various devices such as phones, watches, earbuds, and glasses. This dataset provides valuable insights into human activity recognition and summarization using multi-modal sensor data.
 
-**📊 Dataset Link**: 
-- xrfv2_raw: https://www.kaggle.com/datasets/laptype/xrf-v2
-- xfv2_train: Uploading...
+**📊 Download Link**: 
+-   Kaggle (IMU and Wi-Fi: ): https://www.kaggle.com/datasets/anonymous20251/xrfv2dataset
+-   SDP  (IMU, Wi-Fi): http://www.sdp8.org/Dataset?id=1186880c-b321-45d0-ac3a-74ef9d2fdeda
 
-*(Currently, only data from 3 volunteers are available for access)*
+- Models' weights: https://drive.google.com/drive/folders/1N3Ytqp0UjiBdSc_rb3kPjjwejmdtZEK1?usp=sharing
 
-After downloading the dataset, please note that the **xfv2_train** folder contains the data used during training, which is split into training and testing datasets, as specified in `basic_config.json` under the `dataset_path` parameter. The **xrfv2_raw** folder contains the raw, unsegmented data, which is intended for testing and evaluation, and corresponds to the `dataset_root_path` in `basic_config.json`. 
+
 
 
 ## 📦 Environment Configuration
@@ -81,3 +81,17 @@ If you encounter any issues or need assistance, feel free to reach out to us.
 
 ## License 📜
 XRFV2 is licensed under the MIT License. See the LICENSE file for more details.
+
+## Citation
+If XRFV2 helps in your research, please kindly cite 
+```
+@article{lan2025xrf,
+  author = {Lan, Bo and Li, Pei and Yin, Jiaxi and Song, Yunpeng and Wang, Ge and Ding, Han and Han, Jinsong and Wang, Fei},
+  title = {XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses},
+  journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  year = {2025},
+  publisher = {ACM},
+  address = {New York, NY, USA}
+}
+```
+
