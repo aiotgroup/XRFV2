@@ -89,6 +89,8 @@ If XRFV2 helps in your research, please kindly cite
   author = {Lan, Bo and Li, Pei and Yin, Jiaxi and Song, Yunpeng and Wang, Ge and Ding, Han and Han, Jinsong and Wang, Fei},
   title = {XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses},
   journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={9},
+  number={3},
   year = {2025},
   publisher = {ACM}
 }
