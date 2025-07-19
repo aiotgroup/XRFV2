@@ -91,6 +91,7 @@ If XRFV2 helps in your research, please kindly cite
   journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
   volume={9},
   number={3},
+  pages={1--41},
   year = {2025},
   publisher = {ACM}
 }
